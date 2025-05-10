@@ -101,28 +101,39 @@ This project is an end-to-end data analysis solution that extracts valuable busi
 ```
 ---
 
-Results and Insights
+## Results and Insights
+
 This section includes the analysis findings:
 
-Sales Insights: Key categories, branches with the highest sales, and preferred payment methods.
+### Sales Insights:
+- Key categories, branches with the highest sales, and preferred payment methods.
 
-Profitability: Insights into the most profitable product categories and locations.
+### Profitability:
+- Insights into the most profitable product categories and locations.
 
-Customer Behavior: Trends in ratings, payment preferences, and peak shopping hours.
+### Customer Behavior:
+- Trends in ratings, payment preferences, and peak shopping hours.
 
-Future Enhancements
+---
+
+## Future Enhancements
+
 Possible future extensions to this project:
 
-Integration with dashboard tools like Power BI or Tableau for interactive data visualizations.
+- Integration with dashboard tools like Power BI or Tableau for interactive data visualizations.
+- Incorporating additional data sources to enhance the analysis.
+- Automating the data pipeline for real-time data ingestion and analysis.
 
-Incorporating additional data sources to enhance the analysis.
+---
 
-Automating the data pipeline for real-time data ingestion and analysis.
+## License
 
-License
 This project is licensed under the MIT License.
 
-Acknowledgments
-Data Source: Kaggle’s Walmart Sales Dataset
+---
 
-Inspiration: Walmart’s business case studies on sales and supply chain optimization.
+## Acknowledgments
+
+- **Data Source**: Kaggle’s Walmart Sales Dataset
+- **Inspiration**: Walmart’s business case studies on sales and supply chain optimization.
+
