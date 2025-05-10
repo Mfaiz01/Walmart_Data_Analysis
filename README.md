@@ -28,7 +28,7 @@ This project is an end-to-end data analysis solution that extracts valuable busi
 ### 4. Install Required Libraries and Load Data
    - **Libraries**: I installed the necessary Python libraries using:
      ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+     pip install -r requirements.txt
      ```
    - **Loading Data**: The data was loaded into a Pandas DataFrame for initial analysis and data transformations.
 
@@ -84,46 +84,3 @@ This project is an end-to-end data analysis solution that extracts valuable busi
 1. Clone the repository:
    ```bash
    git clone <repo-url>
-Install Python libraries:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set up your Kaggle API, download the data, and follow the steps to load and analyze.
-
-Project Structure
-plaintext
-Copy
-Edit
-|-- data/                     # Raw data and transformed data
-|-- sql_queries/              # SQL scripts for analysis and queries
-|-- notebooks/                # Jupyter notebooks for Python analysis
-|-- README.md                 # Project documentation
-|-- requirements.txt          # List of required Python libraries
-|-- main.py                   # Main script for loading, cleaning, and processing data
-Results and Insights
-This section includes the analysis findings:
-
-Sales Insights: Key categories, branches with the highest sales, and preferred payment methods.
-
-Profitability: Insights into the most profitable product categories and locations.
-
-Customer Behavior: Trends in ratings, payment preferences, and peak shopping hours.
-
-Future Enhancements
-Possible future extensions to this project:
-
-Integration with dashboard tools like Power BI or Tableau for interactive data visualizations.
-
-Incorporating additional data sources to enhance the analysis.
-
-Automating the data pipeline for real-time data ingestion and analysis.
-
-License
-This project is licensed under the MIT License.
-
-Acknowledgments
-Data Source: Kaggle’s Walmart Sales Dataset
-
-Inspiration: Walmart’s business case studies on sales and supply chain optimization.
